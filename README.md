@@ -4,4 +4,4 @@ A basic clean architecture quote app which uses
 - Retrofit for making network request
 - Room for caching the response from api calls
 - Dagger hilt for dependency injection
-- Flow for exposing data into ui elements
+- Flow for handling stream of data
