@@ -34,7 +34,6 @@ class QuotesListViewModel @Inject constructor(private val repository: QuoteRepos
                 .collect{result ->
                     when(result){
                         is Resource.Success ->{
-                            println("result = ${result.data}")
                             result.data?.let {quotes ->
                                 state =state.copy(
                                     quotes = quotes
